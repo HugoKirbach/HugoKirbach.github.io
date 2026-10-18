@@ -2,7 +2,7 @@
   "id": "/",
   "name": "Hugo Kirbach — Applis musique",
   "short_name": "Mes applis",
-  "description": "Menu d'accès à Premier Mix et BeatForge, utilisable hors ligne.",
+  "description": "Menu d'accès à Music Studio Tycoon et BeatForge, utilisable hors ligne.",
   "lang": "fr",
   "start_url": "/",
   "scope": "/",
@@ -17,7 +17,7 @@
     { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
   ],
   "shortcuts": [
-    { "name": "Premier Mix", "url": "/music-studio-tycoon/" },
+    { "name": "Music Studio Tycoon", "url": "/music-studio-tycoon/" },
     { "name": "BeatForge", "url": "/music-learning-tool/" }
   ]
 }
