@@ -1,10 +1,10 @@
 // Service worker du menu : met le menu en cache pour qu'il s'ouvre hors ligne.
 // Les deux applis ont leur propre service worker (enregistré depuis index.html) : on ne touche pas à leurs dossiers.
-const CACHE = 'hub-v1';
+const CACHE = 'hub-v2';
 const FILES = [
-  '/', '/index.html', '/manifest.webmanifest',
+  '/', '/index.html',
   '/icons/icon.svg', '/icons/icon-192.png', '/icons/icon-512.png', '/icons/apple-touch-icon.png',
-  '/previews/tycoon.jpg', '/previews/learning.jpg',
+  '/previews/tycoon.jpg', '/previews/learning.jpg', '/previews/trainer.jpg',
 ];
 
 self.addEventListener('install', (e) => {
